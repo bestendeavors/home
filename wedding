@@ -1,0 +1,117 @@
+<html><head>
+<title>BEST ENDEAVORS</title>
+<meta name="description" content="BEST ENDEAVORS">
+  
+
+<style>
+
+     body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  font-family: Helvetica, Arial, sans-serif;
+     }
+  
+     a.main {
+       display: block;
+       padding: 1em;
+       text-decoration: none;
+       color: #000;
+       
+       font-size: 20px;
+       text-align: center;
+       line-height: 1.5;
+       border: 1px solid transparent;
+       -webkit-tap-highlight-color: transparent;
+     }
+     @keyframes ants { to { background-position: 100% 100% } }
+     a:hover, a:active {
+       background: linear-gradient(white, white) padding-box,
+        repeating-linear-gradient(-45deg, black 0, black 25%, transparent 0, transparent 50%) 0 / .5em .5em;
+       animation: ants 12s linear infinite;
+
+     }
+  a.bottom {
+    display: block;
+    position: absolute;
+    bottom: 1em;
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+  }
+
+    a.bottom:visited, a.bottom:active {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  
+  subheader {
+    font-size: 12px;
+        line-height: 1.25;
+  }
+  
+  
+  input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  
+}
+
+
+  
+  
+  
+
+
+#mc_embed_signup { border: none; text-align: left; width: 100%; } /* Signup form container */
+
+.mc-field-group { display: inline-block; } /* positions input field horizontally */
+
+#mce-EMAIL { font-family:'Helvetica', monospace; font-size: 8px; border: 1px solid #000000 ; color: #343434; background-color: #fff; padding: 2.2px 9em .4em 1em; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; display: inline-block; width: 250px; } /* Input Styles */
+
+.clear { display: inline-block; } /* positions button horizontally in line with input */
+
+.button { font-family: 'Helvetica', monospace; font-size: 8px; letter-spacing: .03em; color: #000000; background-color: #ffffff ; padding: 2.3px 2em; border: 1px solid #000000 ; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; display: inline-block; margin: -70px; } /* Button Styles */
+
+:-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */ 
+:-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { color: #ABB0B2 ; } /* Internet Explorer 10+ */
+
+@media (max-width: 768px) { /* positions input field and button underneath each other with 100% width for tablet and mobile */
+  
+.mc-field-group { display: block; max-width:350px; }
+#mce-EMAIL { padding: .7em 0 .7em 1em; width: 100%; margin: 50px; }
+.clear { display: block; width: 100% }
+.button { width: 350px; margin: -52px 20px 0px 50px; }
+  
+  
+  
+  
+  
+    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+<a href="https://www.instagram.com/bestendeavors/" title="BEST ENDEAVORS" class="main">
+BEST ENDEAVORS<br>
+<subheader>AN EXPLORATION OF CULINARY<br>
+& SOCIAL DYNAMICS</subheader>
+</a>
+
+
+
+
+
+<a href="mailto:info@bestendeavors.co" class="bottom">info@bestendeavors.co</a>
+
+
+
+</body></html>
+

@@ -4,6 +4,9 @@
 }
 
 
+p.customfont { 
+    font-family: "clearface", Helvetica, Arial, sans-serif;
+}
 
      body {
       margin: 0;

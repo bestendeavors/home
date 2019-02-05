@@ -4,8 +4,23 @@
 }
 
 
-p.customfont { 
+a.customfont { 
     font-family: "clearface", Helvetica, Arial, sans-serif;
+    display: block;
+       padding: 1em;
+       text-decoration: none;
+       color: #000;
+       font-size: 20px;
+       text-align: center;
+       line-height: 1.5;
+       border: 1px solid transparent;
+       -webkit-tap-highlight-color: transparent;
+     }
+     @keyframes ants { to { background-position: 100% 100% } }
+     a:hover, a:active {
+       background: linear-gradient(white, white) padding-box,
+        repeating-linear-gradient(-45deg, black 0, black 25%, transparent 0, transparent 50%) 0 / .5em .5em;
+       animation: ants 12s linear infinite;
 }
 
      body {

@@ -32,7 +32,7 @@
      }
      @keyframes ants { to { background-position: 100% 100% } }
      a:hover, a:active {
-       background: linear-gradient(white, white) padding-box,
+       background: linear-gradient(transparent) padding-box,
         repeating-linear-gradient(-45deg, black 0, black 25%, transparent 0, transparent 50%) 0 / .5em .5em;
        animation: ants 12s linear infinite;
      }

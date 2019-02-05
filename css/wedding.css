@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Displace';
+  src: url('../fonts/36B13B_0_0.eot');
+  src: url('../fonts/36B13B_0_0.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/36B13B_0_0.woff2') format('woff2'),
+  url('../fonts/36B13B_0_0.woff') format('woff'),
+  url('../fonts/36B13B_0_0.ttf') format('truetype');
+}
+
+
+
+
+     body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Displace;
+     }
+  
+     a.main {
+       display: block;
+       padding: 1em;
+       text-decoration: none;
+       color: #000;
+       font-size: 20px;
+       text-align: center;
+       line-height: 1.5;
+       border: 1px solid transparent;
+       -webkit-tap-highlight-color: transparent;
+     }
+     @keyframes ants { to { background-position: 100% 100% } }
+     a:hover, a:active {
+       background: linear-gradient(#e0b0a4,#e0b0a4) padding-box,
+        repeating-linear-gradient(-45deg, #9c563f 0, #9c563f 25%, transparent 0, transparent 50%) 0 / .5em .5em;
+       animation: ants 12s linear infinite;
+     }
+  a.bottom {
+    display: block;
+    position: absolute;
+    bottom: 1em;
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+  }
+    a.bottom:visited, a.bottom:active {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  
+  subheader {
+    font-size: 12px;
+        line-height: 1.25;
+  }
+  
+  
+  input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  
+}
+
+   body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Displace;
+     }
+  
+    .title.sc-truncate {
+    display: none;
+}
+  
+
+  

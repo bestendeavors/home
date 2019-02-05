@@ -1,0 +1,143 @@
+/*** Responsive Styles Large Desktop Only ***/
+@media all and (min-width: 1681px) and (max-width: 1920px) {
+	.title { font-size: 88px !important; }
+	.text .text_description { font-size: 34px !important; }
+	.menu .menu_item { font-size: 24px !important; }	
+}
+
+@media all and (min-width: 1441px) and (max-width: 1680px) {
+	.title { font-size: 86px !important; }
+	.text .text_description { font-size: 32px !important; }
+	.menu .menu_item { font-size: 22px !important; }
+}	
+
+@media all and (min-width: 1367px) and (max-width: 1440px) {
+	.title { font-size: 84px !important; }
+	.text .text_description { font-size: 30px !important; }
+	.menu .menu_item { font-size: 20px !important; }
+}
+
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1366px) {
+	.title { font-size: 82px; }
+	.text .text_description { font-size: 28px; }
+	.menu .menu_item { font-size: 18px; } 
+
+
+}
+ 
+/*** Responsive Styles Tablet And Below **	*/
+@media all and (max-width: 980px) {
+	.title { font-size: 75p;x }
+	.text .text_description { font-size: 26px; }
+	.menu .menu_item { font-size: 22px; } 
+
+}
+ 
+@media all and (min-width: 768px) and (max-width: 980px) {
+	.title { font-size: 75px; }
+	.text .text_description { font-size: 24px; }
+	.menu .menu_item { font-size: 20px; }  
+
+	.menu .twitter-link-mob  { display: none; }
+
+	.column-left {
+		font-size: 28px !important;
+	}
+
+	.right_link, 
+	.right_title {
+		font-size: 22px !important; 
+	}
+}
+ 
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+	.title { font-size: 55px; }
+	.text .text_description { font-size: 22px; width: auto; }
+	.menu .menu_item { font-size: 20px; }  
+
+	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
+	.menu .email-link { top: 15px; right: 15px; }						
+	.menu .twitter-link { bottom: 15px; left: 15px;}					
+	.menu .instagram-link { bottom:	 15px; right: 15px; }
+	.menu .twitter-link-mob { display: block; top: 15px; right: 15px; }	
+
+	.column-left, .column-right { width: 100%; }	
+	.column-left {  font-size: 20px; }
+	.column-right {  font-size: 16px; }
+
+	.right_link, 
+	.right_title {
+		font-size: 16px !important; 
+	}
+	#responsive{
+		padding-top: 65px;
+		transform: unset;
+		position: relative;	
+		z-index: 249;
+		pointer-events: auto;
+		background: rgba(0,0,0,0);			
+	}
+
+
+}
+ 
+@media all and (min-width: 321px) and (max-width: 567px) {
+	.title { font-size: 45px !important; }
+	.text .text_description { font-size: 16px !important; width: auto; }
+	.menu .menu_item { font-size: 16px !important; }  
+
+	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
+	.menu .email-link { top: 15px; right: 60px; }
+	.menu .twitter-link { display: none; }
+	.menu .instagram-link { display: none; }	
+}
+
+@media all and (max-width: 320px) {
+	.title { font-size: 40px !important; }
+	.text .text_description { font-size: 13px !important; width: auto; }
+	.menu .menu_item { font-size: 13px !important; }  
+
+	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
+	.menu .email-link { top: 15px; right: 50px; }
+	.menu .twitter-link { display: none; }
+	.menu .instagram-link { display: none; }	
+}
+
+@media all and (max-width: 767px)  and (orientation:landscape) {
+	.title { font-size: 35px; }
+	.text .text_description { font-size: 15px; width: auto; }
+	.menu .menu_item { font-size: 15px; }  
+
+	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
+	.menu .email-link { top: 15px; right: 15px; }
+	.menu .twitter-link { bottom: 15px; left: 15px; }
+	.menu .instagram-link { bottom: 15px; right: 15px; }	
+}
+
+@media all and (min-width: 321px) and (max-width: 567px) and (orientation:landscape) {
+	.title { font-size: 35px !important; }
+	.text .text_description { font-size: 12px !important; width: auto; }
+	.menu .menu_item { font-size: 12px !important; }  
+
+	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
+	.menu .email-link { top: 15px; right: 15px; }
+	.menu .twitter-link { bottom: 15px; left: 15px; }
+	.menu .instagram-link { bottom: 15px; right: 15px; }	
+}
+
+@media all and (max-width: 320px) and (orientation:landscape) {
+	.title { font-size: 30px !important; }
+	.text .text_description { font-size: 12px !important; width: auto; }
+	.menu .menu_item { font-size: 12px !important; }  
+
+	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
+	.menu .email-link { top: 15px; right: 15px; }
+	.menu .twitter-link { bottom: 15px; left: 15px; }
+	.menu .instagram-link { bottom: 15px; right: 15px; }
+}
+
+
+
+

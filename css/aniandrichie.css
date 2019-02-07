@@ -24,14 +24,31 @@ a {
 }
 
 .title {
-       display: block;
-       padding: 1em;
-       color: #9c563f;
-       font-size: 24px;
-       text-align: center;
-       line-height: 1.5;
-       border: 1px solid transparent;
-       -webkit-tap-highlight-color: transparent;
+  color: #9c563f;
+  font-size: 24px;
+  font-family: 'Displace', Helvetica, sans-serif !important;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 250;  
+  
+}
+
+
+.titlesub {
+  color: #9c563f;
+  font-size: 24px;
+  font-family: 'Displace', Helvetica, sans-serif !important;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 250;  
   
 }
 

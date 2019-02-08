@@ -28,28 +28,13 @@ a {
   font-size: 24px;
   font-family: 'Displace', Helvetica, sans-serif !important;
   font-weight: 400;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: 250;  
-  
 }
 
-
-.titlesub {
+.subtitle {
   color: #9c563f;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Displace', Helvetica, sans-serif !important;
   font-weight: 400;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: 250;  
-  
 }
 
 

@@ -37,7 +37,23 @@ a {
   font-weight: 400;
 }
 
-
+a.main {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: #9c563f;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+     @keyframes ants { to { background-position: 100% 100% } }
+     a:hover, a:active {
+       background: linear-gradient(#e0b0a4,#e0b0a4) padding-box,
+        repeating-linear-gradient(-45deg, #9c563f 0, #9c563f 25%, transparent 0, transparent 50%) 0 / .5em .5em;
+       animation: ants 12s linear infinite;
+     }
 
 #responsive{
   display: none;

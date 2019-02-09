@@ -11,7 +11,7 @@ body, p, a, h1, h2, h3, h4, h5, h6 {
   margin: 0 !important;
   padding: 0 !important;
   font-family: 'Displace', Helvetica, sans-serif !important;
-
+  background-color: #e0b0a4;
 }
 
 * {
@@ -36,6 +36,21 @@ a {
   z-index: 250;  
 }
 
+html, body, .container {
+    height: 100%;
+}
+
+.container {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
 
 
 #responsive{

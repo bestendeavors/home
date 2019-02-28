@@ -10,7 +10,7 @@
 body, p, a, h1, h2, h3, h4, h5, h6 {
   margin: 0 !important;
   padding: 0 !important;
-  font-family: 'Agentur', Helvetica, sans-serif !important;
+  font-family: 'Displace', Helvetica, sans-serif !important;
 
 }
 
@@ -26,7 +26,7 @@ a {
 .title {
   color: #fff;
   font-size: 90px;
-  font-family: 'Respira', Helvetica, sans-serif !important;
+  font-family: 'Displace', Helvetica, sans-serif !important;
   font-weight: 400;
   position: absolute;
   top: 50%;
@@ -90,7 +90,7 @@ a {
 
 .text_link a,
 .text_highlight {
- font-family: 'Text-Regular', Helvetica, sans-serif !important;
+ font-family: 'Displace', Helvetica, sans-serif !important;
 }
 
 .menu .close-link,
@@ -101,7 +101,7 @@ a {
 .menu .menu_item {
   border-bottom: 2px solid;
   font-size: 18px;
-  font-family: 'Text-Regular', Helvetica, sans-serif !important;
+  font-family: 'Displace', Helvetica, sans-serif !important;
   color: #fff; 
   position: fixed;
   padding-bottom: 2px;
@@ -110,7 +110,7 @@ a {
 
 .menu .menu_item a {
   color: #fff;
-  font-family: 'Text-Regular', Helvetica, sans-serif !important;
+  font-family: 'Displace', Helvetica, sans-serif !important;
   text-decoration: none;
 }
 
@@ -182,7 +182,7 @@ a {
 
 .right_title{
 
-font-family: 'Text-Regular', Helvetica, sans-serif
+font-family: 'Displace', Helvetica, sans-serif
 
 }
 

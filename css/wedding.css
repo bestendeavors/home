@@ -1,37 +1,10 @@
 @font-face {
-  font-family: 'Text-Regular';
-  src: url('../src/webfonts/36A56D_0_0.eot');
-  src: url('../src/webfonts/36A56D_0_0.eot?#iefix') format('embedded-opentype'),
-  url('../src/webfonts/36A56D_0_0.woff2') format('woff2'),
-  url('../src/webfonts/36A56D_0_0.woff') format('woff'),
-  url('../src/webfonts/36A56D_0_0.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'Displace';
-  src: url('../src/webfonts/36B13B_0_0.eot');
-  src: url('../src/webfonts/36B13B_0_0.eot?#iefix') format('embedded-opentype'),
-  url('../src/webfonts/36B13B_0_0.woff2') format('woff2'),
-  url('../src/webfonts/36B13B_0_0.woff') format('woff'),
-  url('../src/webfonts/36B13B_0_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Agentur';
-  src: url('../src/webfonts/Agentur-Regular.eot');
-  src: url('../src/webfonts/Agentur-Regular.eot?#iefix') format('embedded-opentype'),
-  url('../src/webfonts/Agentur-Regular.woff2') format('woff2'),
-  url('../src/webfonts/Agentur-Regular.woff') format('woff'),
-  url('../src/webfonts/Agentur-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Respira';
-  src: url('../src/webfonts/Respira-Black.eot');
-  src: url('../src/webfonts/Respira-Black.eot?#iefix') format('embedded-opentype'),
-  url('../src/webfonts/Respira-Black.woff2') format('woff2'),
-  url('../src/webfonts/Respira-Black.woff') format('woff'),
-  url('../src/webfonts/Respira-Black.ttf') format('truetype');
+  src: url('../fonts/36B13B_0_0.eot');
+  src: url('../fonts/36B13B_0_0.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/36B13B_0_0.woff2') format('woff2'),
+  url('../fonts/36B13B_0_0.woff') format('woff'),
+  url('../fonts/36B13B_0_0.ttf') format('truetype');
 }
 
 body, p, a, h1, h2, h3, h4, h5, h6 {

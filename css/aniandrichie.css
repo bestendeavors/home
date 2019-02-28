@@ -11,7 +11,7 @@ body, p, a, h1, h2, h3, h4, h5, h6 {
   margin: 0 !important;
   padding: 0 !important;
   font-family: 'Displace', Helvetica, sans-serif !important;
-  background-color: #e0b0a4 !important;
+
 }
 
 * {
@@ -24,33 +24,18 @@ a {
 }
 
 .title {
-  color: #9c563f !important;
-  font-size: 24px;
+  color: #9c563f;
+  font-size: 90px;
   font-family: 'Displace', Helvetica, sans-serif !important;
   font-weight: 400;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center !important;
+  text-align: center;
   z-index: 250;  
 }
 
-html, body, .container {
-    height: 100%;
-}
-
-.container {
-    display: -webkit-flexbox;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    justify-content: center;
-}
 
 
 #responsive{
@@ -72,7 +57,7 @@ html, body, .container {
 .column-left,
 .column-right {
   float: left;
-  color: #9c563f;
+  color: white;
   position: relative;
   padding: 5% 5%; 
   -webkit-box-sizing: border-box;
@@ -168,9 +153,24 @@ html, body, .container {
   width: 100%;
   height: 100%;
   z-index: 100;
-  background-color: #e0b0a4 !important;
 }
 
+/* Canvas */
+#reveal-bg {
+  display: block;
+  background-image: url('../img/transparent-bg.png') !important;
+  background-image: -webkit-image-set(url('..img/transparent-bg.png') 1x,
+  url('../img/transparent-bg.png') 2x );
+  cursor:  crosshair;
+  cursor: url(../img/Cursor-1px-Opacity.png) 53 53, crosshair;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 150;
+}
 
 .title {
   pointer-events: none;
@@ -181,14 +181,16 @@ html, body, .container {
 }
 
 .right_title{
+
 font-family: 'Displace', Helvetica, sans-serif
+
 }
 
 .right_link a{
+
 text-decoration: underline;
 pointer-events: auto;  
 }
-
 .right_link, 
 .right_title {
   font-size: 18px; 

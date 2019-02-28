@@ -57,7 +57,7 @@ a {
 .column-left,
 .column-right {
   float: left;
-  color: white;
+  color: #9c563f;
   position: relative;
   padding: 5% 5%; 
   -webkit-box-sizing: border-box;

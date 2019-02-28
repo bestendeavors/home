@@ -1,80 +1,224 @@
 @font-face {
+  font-family: 'Text-Regular';
+  src: url('../src/webfonts/36A56D_0_0.eot');
+  src: url('../src/webfonts/36A56D_0_0.eot?#iefix') format('embedded-opentype'),
+  url('../src/webfonts/36A56D_0_0.woff2') format('woff2'),
+  url('../src/webfonts/36A56D_0_0.woff') format('woff'),
+  url('../src/webfonts/36A56D_0_0.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Displace';
-  src: url('../fonts/36B13B_0_0.eot');
-  src: url('../fonts/36B13B_0_0.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/36B13B_0_0.woff2') format('woff2'),
-  url('../fonts/36B13B_0_0.woff') format('woff'),
-  url('../fonts/36B13B_0_0.ttf') format('truetype');
+  src: url('../src/webfonts/36B13B_0_0.eot');
+  src: url('../src/webfonts/36B13B_0_0.eot?#iefix') format('embedded-opentype'),
+  url('../src/webfonts/36B13B_0_0.woff2') format('woff2'),
+  url('../src/webfonts/36B13B_0_0.woff') format('woff'),
+  url('../src/webfonts/36B13B_0_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Agentur';
+  src: url('../src/webfonts/Agentur-Regular.eot');
+  src: url('../src/webfonts/Agentur-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../src/webfonts/Agentur-Regular.woff2') format('woff2'),
+  url('../src/webfonts/Agentur-Regular.woff') format('woff'),
+  url('../src/webfonts/Agentur-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Respira';
+  src: url('../src/webfonts/Respira-Black.eot');
+  src: url('../src/webfonts/Respira-Black.eot?#iefix') format('embedded-opentype'),
+  url('../src/webfonts/Respira-Black.woff2') format('woff2'),
+  url('../src/webfonts/Respira-Black.woff') format('woff'),
+  url('../src/webfonts/Respira-Black.ttf') format('truetype');
+}
+
+body, p, a, h1, h2, h3, h4, h5, h6 {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Agentur', Helvetica, sans-serif !important;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff; 
+}
+
+.title {
+  color: #fff;
+  font-size: 90px;
+  font-family: 'Respira', Helvetica, sans-serif !important;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 250;  
 }
 
 
 
-
-     body {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: Displace;
-     }
-  
-     a.main {
-       display: block;
-       padding: 1em;
-       text-decoration: none;
-       color: #9c563f;
-       font-size: 20px;
-       text-align: center;
-       line-height: 1.5;
-       border: 1px solid transparent;
-       -webkit-tap-highlight-color: transparent;
-     }
-     @keyframes ants { to { background-position: 100% 100% } }
-     a:hover, a:active {
-       background: linear-gradient(#e0b0a4,#e0b0a4) padding-box,
-        repeating-linear-gradient(-45deg, #9c563f 0, #9c563f 25%, transparent 0, transparent 50%) 0 / .5em .5em;
-       animation: ants 12s linear infinite;
-     }
-  a.bottom {
-    display: block;
-    position: absolute;
-    bottom: 1em;
-    font-size: 8px;
-    text-transform: uppercase;
-    color: #9c563f;
-    text-decoration: none;
-  }
-    a.bottom:visited, a.bottom:active {
-    color: #9c563f;
-    text-decoration: none;
-  }
-  
-  
-  subheader {
-    font-size: 12px;
-        line-height: 1.25;
-  }
-  
-  
-  input, textarea {
-  -webkit-appearance: none;
-  -webkit-border-radius: 0;
-  
+#responsive{
+  display: none;
+  max-width:100%; /*-- change this to get your desired form width --*/;
+  margin:0 auto;
+  width:100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 200;  
+  pointer-events: none;  
 }
 
-   body {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: Displace;
-     }
-  
-    .title.sc-truncate {
-    display: none;
-}
-  
+.form-row{
+  width: 100%;
 
-  
+}
+.column-left,
+.column-right {
+  float: left;
+  color: white;
+  position: relative;
+  padding: 5% 5%; 
+  -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+}
+
+.column-left {
+  font-size: 27px; 
+  width: 63%;
+}
+
+.column-right {  
+  width: 30%;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.text_link a {
+  text-decoration: underline !important;
+  pointer-events: auto;  
+}
+
+.text_link a,
+.text_highlight {
+ font-family: 'Text-Regular', Helvetica, sans-serif !important;
+}
+
+.menu .close-link,
+.text .text_description {
+  display: none;
+}
+
+.menu .menu_item {
+  border-bottom: 2px solid;
+  font-size: 18px;
+  font-family: 'Text-Regular', Helvetica, sans-serif !important;
+  color: #fff; 
+  position: fixed;
+  padding-bottom: 2px;
+  z-index: 250;  
+}
+
+.menu .menu_item a {
+  color: #fff;
+  font-family: 'Text-Regular', Helvetica, sans-serif !important;
+  text-decoration: none;
+}
+
+.menu .about-link,
+.menu .close-link {
+  cursor: pointer;
+  top: 30px;
+  left: 30px;
+
+}
+
+.menu .email-link {
+  top: 30px;
+  right: 30px;
+}
+
+.menu .twitter-link {
+  bottom: 30px;
+  left: 30px;
+}
+
+.menu .twitter-link-mob {
+  top: 30px;
+  right: 30px;
+  display: none;
+}
+
+.menu .instagram-link {
+  bottom: 30px;
+  right: 30px;
+}
+
+.background {
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+/* Canvas */
+#reveal-bg {
+  display: block;
+  background-image: url('../img/transparent-bg.png') !important;
+  background-image: -webkit-image-set(url('..img/transparent-bg.png') 1x,
+  url('../img/transparent-bg.png') 2x );
+  cursor:  crosshair;
+  cursor: url(../img/Cursor-1px-Opacity.png) 53 53, crosshair;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 150;
+}
+
+.title {
+  pointer-events: none;
+}
+
+.menu .menu_item {
+  pointer-events: auto; 
+}
+
+.right_title{
+
+font-family: 'Text-Regular', Helvetica, sans-serif
+
+}
+
+.right_link a{
+
+text-decoration: underline;
+pointer-events: auto;  
+}
+.right_link, 
+.right_title {
+  font-size: 18px; 
+  }

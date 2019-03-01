@@ -7,6 +7,15 @@
   url('../fonts/36B13B_0_0.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Text-Regular';
+  src: url('https://jayceduarte.com/src/webfonts/36A56D_0_0.eot');
+  src: url('https://jayceduarte.com/src/webfonts/36A56D_0_0.eot?#iefix') format('embedded-opentype'),
+  url('https://jayceduarte.com/src/webfonts/36A56D_0_0.woff2') format('woff2'),
+  url('https://jayceduarte.com/src/webfonts/36A56D_0_0.woff') format('woff'),
+  url('https://jayceduarte.com/src/webfonts/36A56D_0_0.ttf') format('truetype');
+}
+
 body, p, a, h1, h2, h3, h4, h5, h6 {
   margin: 0 !important;
   padding: 0 !important;
@@ -90,7 +99,7 @@ a {
 
 .text_link a,
 .text_highlight {
- font-family: 'Displace', Helvetica, sans-serif !important;
+ font-family: 'Text-Regular', Helvetica, sans-serif !important;
 }
 
 .menu .close-link,

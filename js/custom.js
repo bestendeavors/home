@@ -19,13 +19,13 @@ $(document).ready(function(){
     $('.rsvp-link').fadeOut(200);
     $('.title').fadeOut(200);    
     $('.rsvpclose-link').fadeIn(200); 
-    $('#responsive').fadeIn(1000);
+    $('#responsiversvp').fadeIn(1000);
     console.log('eee');
   });
 
   $('.rsvpclose-link').click(function(){
     $('.rsvpclose-link').fadeOut(200);
-    $('#responsive').fadeOut(200);    
+    $('#responsiversvp').fadeOut(200);    
     $('.rsvp-link').fadeIn(200);
     $('.title').fadeIn(1000);
 

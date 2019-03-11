@@ -107,6 +107,11 @@ a {
   display: none;
 }
 
+.menu .rsvpclose-link,
+.text .text_description {
+  display: none;
+}
+
 .menu .menu_item {
   border-bottom: 2px solid;
   font-size: 18px;

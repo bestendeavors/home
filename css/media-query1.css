@@ -89,6 +89,14 @@
 		pointer-events: auto;
 		background: rgba(0,0,0,0);			
 	}
+	#responsiversvp{
+		padding-top: 65px;
+		transform: unset;
+		position: relative;	
+		z-index: 249;
+		pointer-events: auto;
+		background: rgba(0,0,0,0);			
+	}
 
 
 }

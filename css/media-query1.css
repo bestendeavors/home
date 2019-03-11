@@ -67,11 +67,11 @@
 	.menu .menu_item { font-size: 20px; }  
 
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
-	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 15px; }
+	.menu .rsvp-link, .menu .rsvpclose-link {cursor: pointer;top: 15px;right: 15px;}
 	.menu .email-link { top: 15px; right: 15px; }						
 	.menu .twitter-link { bottom: 15px; left: 15px;}					
 	.menu .instagram-link { bottom:	 15px; right: 15px; }
-	.menu .twitter-link-mob { display: block; top: 15px; right: 15px; }	
+	.menu .twitter-link-mob { display: none; }	
 
 	.column-left, .column-right { width: 100%; }	
 	.column-left {  font-size: 20px; }
@@ -108,9 +108,10 @@
 	.menu .menu_item { font-size: 16px !important; }  
 
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
-	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 15px; }
+	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 50px; }
 	.menu .email-link { top: 15px; right: 60px; }
 	.menu .twitter-link { display: none; }
+	.menu .twitter-link-mob { display: block; top: 15px; right: 15px; }	
 	.menu .instagram-link { display: none; }	
 }
 

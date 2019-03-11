@@ -131,6 +131,14 @@ a {
 
 }
 
+.menu .rsvp-link,
+.menu .rsvpclose-link {
+  cursor: pointer;
+  top: 30px;
+  right: 30px;
+
+}
+
 .menu .email-link {
   top: 30px;
   right: 30px;

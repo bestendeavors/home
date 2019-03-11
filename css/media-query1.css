@@ -101,14 +101,14 @@
 
 }
  
-@media all and (min-width: 321px) and (max-width: 567px) {
+@media (max-width: 567px) and (min-width: 321px) {
 	.title { font-size: 20px !important; }
 	.subtitle { font-size: 16px !important; }
 	.text .text_description { font-size: 16px !important; width: auto; }
 	.menu .menu_item { font-size: 16px !important; }  
 
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
-	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 50px; }
+	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 60px; }
 	.menu .email-link { top: 15px; right: 60px; }
 	.menu .twitter-link { display: none; }
 	.menu .twitter-link-mob { display: block; top: 15px; right: 15px; }	

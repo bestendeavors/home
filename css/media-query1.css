@@ -122,7 +122,7 @@
 	.menu .menu_item { font-size: 13px !important; }  
 
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
-	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 50px; }
+	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 60px; }
 	.menu .email-link { top: 15px; right: 50px; }
 	.menu .twitter-link { display: none; }
 	.menu .instagram-link { display: none; }	
@@ -148,7 +148,7 @@
 	.menu .menu_item { font-size: 12px !important; }  
 
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
-	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 15px; }
+	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 50px; }
 	.menu .email-link { top: 15px; right: 15px; }
 	.menu .twitter-link { bottom: 15px; left: 15px; }
 	.menu .instagram-link { bottom: 15px; right: 15px; }	

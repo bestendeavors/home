@@ -139,6 +139,11 @@ a {
   display: none;
 }
 
+.menu .faqclose-link,
+.text .text_description {
+  display: none;
+}
+
 .menu .menu_item {
   border-bottom: 2px solid;
   font-size: 18px;
@@ -165,6 +170,14 @@ a {
 
 .menu .rsvp-link,
 .menu .rsvpclose-link {
+  cursor: pointer;
+  top: 30px;
+  right: 30px;
+
+}
+
+.menu .faq-link,
+.menu .faqclose-link {
   cursor: pointer;
   top: 30px;
   right: 30px;

@@ -62,18 +62,6 @@ a {
   pointer-events: none;  
 }
 
-#responsivefaq{
-  display: none;
-  max-width:100%; /*-- change this to get your desired form width --*/;
-  margin:0 auto;
-  width:100%;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  z-index: 200;  
-  pointer-events: none;  
-}
-
 .form-row{
   width: 100%;
 
@@ -112,12 +100,6 @@ a {
   clear: both;
 }
 
-.clearfixfaq:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 .text_link a {
   text-decoration: underline !important;
@@ -135,11 +117,6 @@ a {
 }
 
 .menu .rsvpclose-link,
-.text .text_description {
-  display: none;
-}
-
-.menu .faqclose-link,
 .text .text_description {
   display: none;
 }
@@ -176,25 +153,17 @@ a {
 
 }
 
-.menu .faq-link,
-.menu .faqclose-link {
-  cursor: pointer;
-  top: 30px;
-  right: 30px;
-
-}
-
 .menu .email-link {
   top: 30px;
   right: 30px;
 }
 
-.menu .faq-link {
+.menu .twitter-link {
   bottom: 30px;
   left: 30px;
 }
 
-.menu .faq-link-mob {
+.menu .twitter-link-mob {
   top: 30px;
   right: 30px;
   display: none;

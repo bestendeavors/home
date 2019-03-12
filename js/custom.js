@@ -4,10 +4,6 @@ $(document).ready(function(){
     $('.title').fadeOut(200);    
     $('.close-link').fadeIn(200); 
     $('#responsive').fadeIn(1000);
-        $('.rsvpclose-link').fadeOut(200);
-        $('.faqclose-link').fadeOut(200);
-        $('#responsiversvp').fadeOut(200);  
-        $('#responsivefaq').fadeOut(200);  
     console.log('eee');
   });
 
@@ -21,10 +17,6 @@ $(document).ready(function(){
   
     $('.rsvp-link').click(function(){
     $('.rsvp-link').fadeOut(200);
-          $('.about-link').fadeOut(200);
-          $('.faq-link').fadeOut(200);
-          $('#responsive').fadeOut(200);
-          $('#responsivefaq').fadeOut(200); 
     $('.title').fadeOut(200);    
     $('.rsvpclose-link').fadeIn(200); 
     $('#responsiversvp').fadeIn(1000);
@@ -39,26 +31,6 @@ $(document).ready(function(){
 
   });
 
-    $('.faq-link').click(function(){
-          $('.about-link').fadeOut(200);  
-          $('.rsvp-link').fadeOut(200);  
-          $('#responsive').fadeOut(200);
-          $('#responsiversvp').fadeOut(200);
-    $('.faq-link').fadeOut(200);
-    $('.title').fadeOut(200);    
-    $('.faqclose-link').fadeIn(200); 
-    $('#responsivefaq').fadeIn(1000);
-    console.log('eee');
-  });
-
-  $('.faqclose-link').click(function(){
-    $('.faqclose-link').fadeOut(200);
-    $('#responsivefaq').fadeOut(200);    
-    $('.faq-link').fadeIn(200);
-    $('.title').fadeIn(1000);
-
-  });
-  
   var fadeShow = $(".background").fadeShow({
     correctRatio: true,
     shuffle: false,

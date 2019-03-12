@@ -122,7 +122,7 @@
 	.menu .menu_item { font-size: 13px !important; }  
 
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
-	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 60px; }
+	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 50px; }
 	.menu .email-link { top: 15px; right: 50px; }
 	.menu .twitter-link { display: none; }
 	.menu .instagram-link { display: none; }	

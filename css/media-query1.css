@@ -47,7 +47,7 @@
 	.text .text_description { font-size: 24px; }
 	.menu .menu_item { font-size: 20px; }  
 
-	.menu .twitter-link-mob  { display: none; }
+	.menu .faq-link-mob  { display: none; }
 
 	.column-left {
 		font-size: 28px !important;
@@ -69,9 +69,9 @@
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
 	.menu .rsvp-link, .menu .rsvpclose-link {cursor: pointer;top: 15px;right: 15px;}
 	.menu .email-link { top: 15px; right: 15px; }						
-	.menu .twitter-link { bottom: 15px; left: 15px;}					
+	.menu .faq-link { bottom: 15px; left: 15px;}					
 	.menu .instagram-link { bottom:	 15px; right: 15px; }
-	.menu .twitter-link-mob { display: none; }	
+	.menu .faq-link-mob { display: none; }	
 
 	.column-left, .column-right { width: 100%; }	
 	.column-left {  font-size: 20px; }
@@ -110,8 +110,8 @@
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
 	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 60px; }
 	.menu .email-link { top: 15px; right: 60px; }
-	.menu .twitter-link { display: none; }
-	.menu .twitter-link-mob { display: block; top: 15px; right: 15px; }	
+	.menu .faq-link { display: none; }
+	.menu .faq-link-mob { display: block; top: 15px; right: 15px; }	
 	.menu .instagram-link { display: none; }	
 }
 
@@ -124,7 +124,7 @@
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
 	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 50px; }
 	.menu .email-link { top: 15px; right: 50px; }
-	.menu .twitter-link { display: none; }
+	.menu .faq-link { display: none; }
 	.menu .instagram-link { display: none; }	
 }
 
@@ -137,7 +137,7 @@
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
 	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 15px; }
 	.menu .email-link { top: 15px; right: 15px; }
-	.menu .twitter-link { bottom: 15px; left: 15px; }
+	.menu .faq-link { bottom: 15px; left: 15px; }
 	.menu .instagram-link { bottom: 15px; right: 15px; }	
 }
 
@@ -150,7 +150,7 @@
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
 	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 15px; }
 	.menu .email-link { top: 15px; right: 15px; }
-	.menu .twitter-link { bottom: 15px; left: 15px; }
+	.menu .faq-link { bottom: 15px; left: 15px; }
 	.menu .instagram-link { bottom: 15px; right: 15px; }	
 }
 
@@ -163,6 +163,6 @@
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
 	.menu .rsvp-link, .menu .rsvpclose-link { cursor: pointer; top: 15px; right: 15px; }
 	.menu .email-link { top: 15px; right: 15px; }
-	.menu .twitter-link { bottom: 15px; left: 15px; }
+	.menu .faq-link { bottom: 15px; left: 15px; }
 	.menu .instagram-link { bottom: 15px; right: 15px; }
 }

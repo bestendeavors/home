@@ -2,21 +2,21 @@
     
 /*** Responsive Styles Large Desktop Only ***/
 @media all and (min-width: 1681px) and (max-width: 1920px) {
-	.title { font-size: 24px !important; }
+	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 34px !important; }
 	.menu .menu_item { font-size: 24px !important; }	
 }
 
 @media all and (min-width: 1441px) and (max-width: 1680px) {
-	.title { font-size: 24px !important; }
+	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 32px !important; }
 	.menu .menu_item { font-size: 22px !important; }
 }	
 
 @media all and (min-width: 1367px) and (max-width: 1440px) {
-	.title { font-size: 24px !important; }
+	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 30px !important; }
 	.menu .menu_item { font-size: 20px !important; }
@@ -24,7 +24,7 @@
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1366px) {
-	.title { font-size: 24px !important; }
+	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 28px; }
 	.menu .menu_item { font-size: 18px; } 
@@ -34,7 +34,7 @@
  
 /*** Responsive Styles Tablet And Below **	*/
 @media all and (max-width: 980px) {
-	.title { font-size: 24px !important; }
+	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 26px; }
 	.menu .menu_item { font-size: 22px; } 
@@ -42,7 +42,7 @@
 }
  
 @media all and (min-width: 768px) and (max-width: 980px) {
-	.title { font-size: 24px !important; }
+	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 24px; }
 	.menu .menu_item { font-size: 20px; }  
@@ -61,7 +61,7 @@
  
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-	.title { font-size: 20px !important; }
+	.title { font-size: 30px !important; }
 	.subtitle { font-size: 16px !important; }
 	.text .text_description { font-size: 22px; width: auto; }
 	.menu .menu_item { font-size: 20px; }  
@@ -102,7 +102,7 @@
 }
  
 @media (max-width: 567px) and (min-width: 321px) {
-	.title { font-size: 20px !important; }
+	.title { font-size: 30px !important; line-height: 90px;}
 	.subtitle { font-size: 16px !important; }
 	.text .text_description { font-size: 16px !important; width: auto; }
 	.menu .menu_item { font-size: 16px !important; }  
@@ -116,7 +116,7 @@
 }
 
 @media all and (max-width: 320px) {
-	.title { font-size: 20px !important; }
+	.title { font-size: 30px !important; line-height: 90px;}
 	.subtitle { font-size: 16px !important; }
 	.text .text_description { font-size: 13px !important; width: auto; }
 	.menu .menu_item { font-size: 13px !important; }  
@@ -129,7 +129,7 @@
 }
 
 @media all and (max-width: 767px)  and (orientation:landscape) {
-	.title { font-size: 20px !important; }
+	.title { font-size: 30px !important; }
 	.subtitle { font-size: 16px !important; }
 	.text .text_description { font-size: 15px; width: auto; }
 	.menu .menu_item { font-size: 15px; }  
@@ -142,7 +142,7 @@
 }
 
 @media all and (min-width: 321px) and (max-width: 567px) and (orientation:landscape) {
-	.title { font-size: 20px !important; }
+	.title { font-size: 30px !important; }
 	.subtitle { font-size: 16px !important; }
 	.text .text_description { font-size: 12px !important; width: auto; }
 	.menu .menu_item { font-size: 12px !important; }  
@@ -155,7 +155,7 @@
 }
 
 @media all and (max-width: 320px) and (orientation:landscape) {
-	.title { font-size: 20px !important; }
+	.title { font-size: 30px !important; }
 	.subtitle { font-size: 16px !important; }
 	.text .text_description { font-size: 12px !important; width: auto; }
 	.menu .menu_item { font-size: 12px !important; }  

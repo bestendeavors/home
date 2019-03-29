@@ -8,6 +8,11 @@
 }
 
 @font-face {
+  font-family: 'Harbour';
+  src: url('../fonts/Harbour-Light.otf');
+}
+
+@font-face {
   font-family: 'Text-Regular';
   src: url('https://jayceduarte.com/src/webfonts/36A56D_0_0.eot');
   src: url('https://jayceduarte.com/src/webfonts/36A56D_0_0.eot?#iefix') format('embedded-opentype'),

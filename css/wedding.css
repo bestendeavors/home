@@ -7,6 +7,17 @@
   url('../fonts/36B13B_0_0.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Harbour';
+  src: url('../fonts/Harbour-Light.otf');
+}
+
+@font-face {
+  font-family: 'Letter';
+  src: url('../fonts/LetterGothicStd.otf');
+}
+
+
 body, p, a, h1, h2, h3, h4, h5, h6 {
   margin: 0 !important;
   padding: 0 !important;

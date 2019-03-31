@@ -5,21 +5,21 @@
 	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 34px !important; }
-	.menu .menu_item { font-size: 24px !important; }	
+	.menu .menu_item { font-size: 16px !important; }	
 }
 
 @media all and (min-width: 1441px) and (max-width: 1680px) {
 	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 32px !important; }
-	.menu .menu_item { font-size: 22px !important; }
+	.menu .menu_item { font-size: 16px !important; }
 }	
 
 @media all and (min-width: 1367px) and (max-width: 1440px) {
 	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 30px !important; }
-	.menu .menu_item { font-size: 20px !important; }
+	.menu .menu_item { font-size: 16px !important; }
 }
 
 /*** Responsive Styles Standard Desktop Only ***/
@@ -27,7 +27,7 @@
 	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 28px; }
-	.menu .menu_item { font-size: 18px; } 
+	.menu .menu_item { font-size: 16px; } 
 
 
 }
@@ -37,7 +37,7 @@
 	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 26px; }
-	.menu .menu_item { font-size: 22px; } 
+	.menu .menu_item { font-size: 16px; } 
 
 }
  
@@ -45,7 +45,7 @@
 	.title { font-size: 30px !important; }
 	.subtitle { font-size: 20px !important; }
 	.text .text_description { font-size: 24px; }
-	.menu .menu_item { font-size: 20px; }  
+	.menu .menu_item { font-size: 16px; }  
 
 	.menu .twitter-link-mob  { display: none; }
 
@@ -55,7 +55,7 @@
 
 	.right_link, 
 	.right_title {
-		font-size: 22px !important; 
+		font-size: 16px !important; 
 	}
 }
  
@@ -64,7 +64,7 @@
 	.title { font-size: 30px !important; }
 	.subtitle { font-size: 16px !important; }
 	.text .text_description { font-size: 22px; width: auto; }
-	.menu .menu_item { font-size: 20px; }  
+	.menu .menu_item { font-size: 16px; }  
 
 	.menu .about-link, .menu .close-link { cursor: pointer; top: 15px; left: 15px; }
 	.menu .rsvp-link, .menu .rsvpclose-link {cursor: pointer;top: 15px;right: 15px;}

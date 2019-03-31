@@ -21,7 +21,7 @@
 body, p, a, h1, h2, h3, h4, h5, h6 {
   margin: 0 !important;
   padding: 0 !important;
-  font-family: 'Displace', Helvetica, sans-serif !important;
+  font-family: 'Letter', Helvetica, sans-serif !important;
 
 }
 
@@ -31,14 +31,13 @@ body, p, a, h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #9c563f; 
+  color: #000000; 
 }
 
 .title {
-  color: #9c563f;
+  color: #000000;
   font-size: 30px;
-  font-family: 'Displace', Helvetica, sans-serif !important;
-  font-weight: 400;
+  font-family: 'Harbour', Helvetica, sans-serif !important;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -80,7 +79,7 @@ a {
 .column-left,
 .column-right {
   float: left;
-  color: #9c563f;
+  color: #000000;
   position: relative;
   padding: 5% 5%; 
   -webkit-box-sizing: border-box;
@@ -119,7 +118,7 @@ a {
 
 .text_link a,
 .text_highlight {
- font-family: 'Displace', Helvetica, sans-serif !important;
+ font-family: 'Letter', Helvetica, sans-serif !important;
 }
 
 .menu .close-link,
@@ -135,16 +134,16 @@ a {
 .menu .menu_item {
   border-bottom: 2px solid;
   font-size: 18px;
-  font-family: 'Displace', Helvetica, sans-serif !important;
-  color: #9c563f; 
+  font-family: 'Letter', Helvetica, sans-serif !important;
+  color: #000000; 
   position: fixed;
   padding-bottom: 2px;
   z-index: 250;  
 }
 
 .menu .menu_item a {
-  color: #9c563f;
-  font-family: 'Displace', Helvetica, sans-serif !important;
+  color: #000000;
+  font-family: 'Letter', Helvetica, sans-serif !important;
   text-decoration: none;
 }
 
@@ -224,7 +223,7 @@ a {
 
 .right_title{
 
-font-family: 'Displace', Helvetica, sans-serif
+font-family: 'Letter', Helvetica, sans-serif
 
 }
 

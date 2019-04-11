@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $('.about-link').click(function(){
+    $('.rsvp-link').fadeOut(200);
     $('.about-link').fadeOut(200);
     $('.title').fadeOut(200);    
     $('#responsiversvp').fadeOut(200);
@@ -17,6 +18,7 @@ $(document).ready(function(){
   });
   
   $('.rsvp-link').click(function(){
+    $('.close-link').fadeOut(200);
     $('.rsvp-link').fadeOut(200);
     $('.title').fadeOut(200);    
     $('#responsive').fadeOut(200);

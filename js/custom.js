@@ -1,6 +1,5 @@
 $(document).ready(function(){
   $('.about-link').click(function(){
-    $('.rsvp-link').fadeOut(200);
     $('.about-link').fadeOut(200);
     $('.title').fadeOut(200);    
     $('#responsiversvp').fadeOut(200);

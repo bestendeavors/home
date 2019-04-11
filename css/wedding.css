@@ -54,9 +54,7 @@ a {
   max-width:100%; /*-- change this to get your desired form width --*/;
   margin:0 auto;
   width:100%;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
+  position: relative;
   z-index: 200;  
   pointer-events: none;  
 }
@@ -66,9 +64,7 @@ a {
   max-width:100%; /*-- change this to get your desired form width --*/;
   margin:0 auto;
   width:100%;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
+  position: relative;
   z-index: 200;  
   pointer-events: none;  
 }

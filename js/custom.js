@@ -2,6 +2,7 @@ $(document).ready(function(){
   $('.about-link').click(function(){
     $('.about-link').fadeOut(200);
     $('.title').fadeOut(200);    
+    $('#responsiversvp').fadeOut(200);
     $('.close-link').fadeIn(200); 
     $('#responsive').fadeIn(1000);
     console.log('eee');
@@ -15,10 +16,11 @@ $(document).ready(function(){
 
   });
   
-    $('.rsvp-link').click(function(){
+  $('.rsvp-link').click(function(){
     $('.rsvp-link').fadeOut(200);
     $('.title').fadeOut(200);    
-    $('.rsvpclose-link').fadeIn(200); 
+    $('#responsive').fadeOut(200);
+    $('.rsvpclose-link').fadeIn(200);
     $('#responsiversvp').fadeIn(1000);
     console.log('eee');
   });
